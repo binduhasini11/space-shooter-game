@@ -16,7 +16,7 @@ Just open `index.html` in any browser.
 - score and lives system
 - Multi-avatar feature
 - Power-ups :rapid mode & shield mode
-- gain lives by beating the purple enemy (5 hits = kill)
+- gain lives by beating the purple giant enemy (5 hits = kill)
 
 ## 🛠️ Tech Stack
 - HTML5
