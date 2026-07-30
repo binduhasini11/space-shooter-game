@@ -41,7 +41,7 @@
       };
     }
 
-    // ─── Constants ────────────────────────────────────────────────────────────
+    // ─── Constants ────
     const shipImages = [
       "shooter.png",
       "shooter2.png",
@@ -84,7 +84,7 @@
       return Math.min(BOSS_SPEED + tier * 0.08, BOSS_SPEED * 3);
     }
 
-    // ─── Star field (generated once, never reset) ─────────────────────────────
+    // ─── Star field (generated once, never reset) ────────
     const stars = [];
     for (let i = 0; i < 200; i++) {
       stars.push({
@@ -107,7 +107,7 @@
       });
     }
 
-    // ─── Game state arrays (declared before resetGame) ────────────────────────
+    // ─── Game state arrays (declared before resetGame) ──────
     const bullets   = [];
     const enemies   = [];
     const bosses    = [];
